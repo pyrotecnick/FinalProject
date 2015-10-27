@@ -25,7 +25,8 @@ class LayoutView {
                 <?php
                 echo'<a href="?">Home | </a>';
                 echo'<a href="?calculator"> Calculator | </a>';
-                echo'<a href="?converter"> Unit Converter</a>';
+                echo'<a href="?converter"> Unit Converter | </a>';
+                echo'<a href="?periodictable"> Periodic Table</a>';
                 ?>
                 <div class="container" >
                     <?php

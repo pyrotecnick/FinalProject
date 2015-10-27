@@ -101,7 +101,7 @@ class CalculatorView {
 	}
         
         /**
-         * Used my Model to pass in the result
+         * Used by Model to pass in the result
          * @param $result
          */
         public function saveResult($result){

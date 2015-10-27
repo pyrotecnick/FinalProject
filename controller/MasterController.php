@@ -18,6 +18,7 @@ class MasterController {
     private $navigationView;
     private $calculatorController;
     private $conversionController;
+    private $periodicController;
     private $homeView;
     private $view;
 
@@ -27,10 +28,11 @@ class MasterController {
      * @param \controller\CalculatorController $calcControl
      * @param \controller\ConverterController $convControl
      */
-    public function __construct(CalculatorController $calcControl, ConverterController $convControl) {
+    public function __construct(CalculatorController $calcControl, ConverterController $convControl, PeriodicTableController $periodicControl) {
         $this->navigationView = new \view\NavigationView();
         $this->calculatorController = $calcControl;
         $this->conversionController = $convControl;
+        $this->periodicController = $periodicControl;
         $this->homeView = new \view\HomeView();
     }
 
@@ -47,7 +49,10 @@ class MasterController {
         } else if ($this->navigationView->inConverter()) {
             $this->conversionController->doControl();
             $this->view = $this->conversionController->getView();
-        } else {
+        } else if ($this->navigationView->inPeriodic()) {
+            $this->periodicController->doControl();
+            $this->view = $this->periodicController->getView();
+        }else {
             $this->view = $this->homeView;
         }
     }

@@ -11,6 +11,7 @@ class NavigationView {
 
     private static $calculatorURL = "calculator";
     private static $converterURL = "converter";
+    private static $periodicURL = "periodictable";
 
     /**
      * Gets the URL for the calculator tool
@@ -26,6 +27,14 @@ class NavigationView {
      */
     public function getConverterURL() {
         return "?" . self::$converterURL;
+    }
+    
+    /**
+     * Gets the URL for the periodic table tool
+     * @return sting
+     */
+    public function getPeriodicURL() {
+        return "?" . self::$periodicURL;
     }
 
     /**
@@ -52,4 +61,11 @@ class NavigationView {
         return isset($_GET[self::$converterURL]) == true;
     }
 
+    /**
+     * Checks for selection of periodic table tool
+     * @return bool
+     */
+    public function inPeriodic() {
+        return isset($_GET[self::$periodicURL]) == true;
+    }
 }
