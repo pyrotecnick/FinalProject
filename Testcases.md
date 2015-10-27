@@ -392,7 +392,7 @@
  
 ***
  
- ##Test case 4.5: Sucessfull Element Lookup
+##Test case 4.5: Sucessfull Element Lookup
 
 ###Input:
  * Test case 4 Periodic Table
@@ -404,7 +404,7 @@
  
 ***
  
- ##Test case 5: Home Page
+##Test case 5: Home Page
 
 ###Input:
  * Select Home Link
