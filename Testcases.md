@@ -1,7 +1,6 @@
 ##Testcases
 
-##Test case 1, Show Welcome Page with Current Time
-Welcome Page should be shown upon user arrival with current time
+##Test case 1: Welcome Page
 
 ###Input:
  * Navigate to site.
@@ -13,7 +12,7 @@ Welcome Page should be shown upon user arrival with current time
 
 ***
 
-##Test case 2 Calculator
+##Test case 2: Calculator
 
 ###Input:
  * Click "Calculator"
@@ -127,7 +126,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message: "6" is displayed
  
- ***
+***
 
 ##Test case 2.9 Division Function Succedes
 
@@ -140,7 +139,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message: "1.5" is displayed
  
- ***
+***
  
 ##Test case 2.10 Modulus Function Succedes
 
@@ -153,7 +152,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message: "1" is displayed
  
- ***
+***
  
 ##Test case 2.11 Exponentiation Function Succedes
 
@@ -166,7 +165,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message: "9" is displayed
  
- ***
+***
 
 ##Test case 3 Unit Converter
 
@@ -318,7 +317,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message "17.78" is shown
  
- ***
+***
  
  ##Test case 3.11:  Centemeters To Inches Conversion Succedes
 
@@ -331,7 +330,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message "6.69" is shown
  
-  ***
+***
 
 ##Test case 4 Periodic Table
 
@@ -367,7 +366,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message "Please only enter Atomic Number" is shown
  
- ***
+***
 
 ##Test case 4.3: Lookup With invalid Atomic Number Fails
 
@@ -379,7 +378,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message "Invalid Atomic Number" is shown
  
- ***
+***
 
 ##Test case 4.4: Sucessfull Element Lookup
 
@@ -391,7 +390,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message "Name: Iron, Symbol: Fe, Atomic Weight: 55.845, Category: Transition Metal" is shown
  
- ***
+***
  
  ##Test case 4.5: Sucessfull Element Lookup
 
@@ -403,7 +402,7 @@ Welcome Page should be shown upon user arrival with current time
 ###Output:
  * Message "Name: Einsteinium, Symbol: Es, Atomic Weight: 252, Category: Actinide" is shown
  
- ***
+***
  
  ##Test case 5: Home Page
 
