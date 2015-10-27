@@ -89,7 +89,7 @@
 
 ***
 
-##Test case 2.6 Addition Function Succedes
+##Test case 2.6: Addition Function Succedes
 
 ###Input:
  * Test case 2 Calculator
@@ -102,7 +102,7 @@
  
 ***
 
-##Test case 2.7 Subtraction Function Succedes
+##Test case 2.7: Subtraction Function Succedes
 
 ###Input:
  * Test case 2 Calculator
@@ -115,7 +115,7 @@
  
 ***
 
-##Test case 2.8 Multiplication Function Succedes
+##Test case 2.8: Multiplication Function Succedes
 
 ###Input:
  * Test case 2 Calculator
@@ -128,7 +128,7 @@
  
 ***
 
-##Test case 2.9 Division Function Succedes
+##Test case 2.9: Division Function Succedes
 
 ###Input:
  * Test case 2 Calculator
@@ -141,7 +141,7 @@
  
 ***
  
-##Test case 2.10 Modulus Function Succedes
+##Test case 2.10: Modulus Function Succedes
 
 ###Input:
  * Test case 2 Calculator
@@ -154,7 +154,7 @@
  
 ***
  
-##Test case 2.11 Exponentiation Function Succedes
+##Test case 2.11: Exponentiation Function Succedes
 
 ###Input:
  * Test case 2 Calculator
@@ -167,7 +167,7 @@
  
 ***
 
-##Test case 3 Unit Converter
+##Test case 3: Unit Converter
 
 ###Input:
  * Click "Unit Converter"
@@ -332,7 +332,7 @@
  
 ***
 
-##Test case 4 Periodic Table
+##Test case 4: Periodic Table
 
 ###Input:
  * Click "Periodic Table"
